@@ -21,7 +21,7 @@
 class Plotter {
 public:
   Plotter();
-  void Plot(Int_t n, std::vector<Double_t> t, std::vector<Double_t> x);
+  void Plot(Int_t n, Int_t ns, std::vector<Double_t> t, std::vector<Double_t> x);
 private:
   TGraph* g1;
   TFile* fOut;
